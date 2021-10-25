@@ -1,3 +1,9 @@
+ //                                            ********* Writer: Matt Hamilton    *********
+ //                                             ******** Class: CS 136            ******** 
+ //                                              ******* Professor: Brian Dauzat  *******
+ //                                                ***** Test 1 Problem 2         *****
+ //                                                 **** ======================== ****
+ //                                                   **  *** *** *** *** *** *** **
 
 //Write and test a function that counts the number of peaks and the number of valleys in a dynamic,sequential structure of integers.
 // A peak is an element of the structure that is greater than its two adjacent neighbors. 
@@ -139,7 +145,10 @@ struct PandV count(struct PandV strct)
         }
     }
 	
+	strct._vec.clear();//clear the vector because we no longer need it, 
 	
+	
+//and the program returns the number of peaks and the number of valleys
 	return strct;
 	
 }
